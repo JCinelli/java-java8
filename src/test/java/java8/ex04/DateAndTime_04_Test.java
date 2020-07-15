@@ -18,7 +18,7 @@ public class DateAndTime_04_Test {
     public void test_localDateTime_of() {
 
         // TODO créer un objet LocalDateTime à la date heure 12h00m00s 01/01/2018
-        LocalDateTime result = LocalDateTime.of(2018, 01, 01, 12, 00, 00);
+        LocalDateTime result = LocalDateTime.of(2018,  01, 01, 12, 00, 00);
 
         // TODO valoriser les différentes variables afin de rendre le test passant
         int hour = result.getHour();
@@ -65,7 +65,7 @@ public class DateAndTime_04_Test {
 
         // TODO créer un objet LocalDateTime le 27/11/2017 à 12h00m00s
         // TODO utiliser la méthode of
-        LocalDateTime localDateTime = LocalDateTime.of(2017, 11, 27, 12, 00, 00);
+        LocalDateTime localDateTime = LocalDateTime.of(2017, 11, 27, 12, 00, 00);;
 
         // TODO Formatter l'heure pour que le test soit passant
         String result = localDateTime.format(DateTimeFormatter.ofPattern("yyyy - MM/dd hh:mm"));
